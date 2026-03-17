@@ -1,0 +1,40 @@
+main {
+    position: relative;
+    left: 210px;
+    height: 100%;
+    width: calc(100% - 180px);
+    display: inline-block;
+}
+
+.map {
+    display: block;
+      margin: auto;
+  width: 65%;
+}
+
+.aside-left {
+    width: 350px;
+    background-color: white;
+    height: 96vh;
+    position: fixed;
+    /* top: 0;
+    left: 0; */
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+}
+
+.hotspot {
+    position: absolute;
+}
+
+.hotspot svg {
+    filter: brightness(0) saturate(100%) invert(17%) sepia(99%) saturate(7474%) hue-rotate(360deg) brightness(96%) contrast(105%);
+    width: 30px;
+    height: 30px;   
+}
+
+.hotspot svg:hover {
+    cursor: pointer;
+    transform: scale(1.25);
+}
