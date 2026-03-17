@@ -8,8 +8,8 @@ main {
 
 .map {
     display: block;
-      margin: auto;
-  width: 65%;
+    margin: auto;
+    width: 65%;
 }
 
 .aside-left {
@@ -31,7 +31,7 @@ main {
 .hotspot svg {
     filter: brightness(0) saturate(100%) invert(17%) sepia(99%) saturate(7474%) hue-rotate(360deg) brightness(96%) contrast(105%);
     width: 30px;
-    height: 30px;   
+    height: 30px;
 }
 
 .hotspot svg:hover {
@@ -42,32 +42,38 @@ main {
 
 
 .tooltiptext {
-  visibility: hidden;
-  width: 120px;
-  background-color: #555;
-  color: #fff;
-  text-align: center;
-  padding: 5px 0;
-  border-radius: 6px;
+    visibility: hidden;
+    width: 200px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
 
-  /* Position the tooltip text */
-  position: absolute;
-  z-index: 1;
-  bottom: 125%;
-  left: 50%;
-  margin-left: -60px;
+    /* Position the tooltip text */
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -102px;
 
-  /* Fade in tooltip */
-  opacity: 0;
-  transition: opacity 0.3s;
+    /* Fade in tooltip */
+    opacity: 0;
+    transition: opacity 0.3s;
+
+    align-items: center;
+}
+
+.tooltiptext img {
+    width: 200px;
 }
 
 .hotspot:hover .tooltiptext {
-  visibility: visible;
-  opacity: 1;
+    visibility: visible;
+    opacity: 1;
 }
 
 .logo img {
-width: 90%;
-padding: 20px;
+    width: 90%;
+    padding: 20px;
 }
