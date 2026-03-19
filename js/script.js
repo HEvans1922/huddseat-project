@@ -30,7 +30,8 @@ function filter(pref) {
     if (pref === "clear") {
         chaiwala.classList.add("visible")
         topTaste.classList.add("visible")
-        centros.classList.add("visible")  
+        centros.classList.add("visible")
     }
+
 }
 
